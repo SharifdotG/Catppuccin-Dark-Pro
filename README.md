@@ -6,7 +6,7 @@
 
 **The Ultimate Hybrid VS Code Theme**
 
-[![Version](https://img.shields.io/badge/version-1.0.1-6c7086?style=for-the-badge&logo=visual-studio-code&logoColor=89b4fa)](https://marketplace.visualstudio.com/items?itemName=catppuccin-dark-pro.catppuccin-dark-pro)
+[![Version](https://img.shields.io/badge/version-1.0.2-6c7086?style=for-the-badge&logo=visual-studio-code&logoColor=89b4fa)](https://marketplace.visualstudio.com/items?itemName=catppuccin-dark-pro.catppuccin-dark-pro)
 [![License](https://img.shields.io/badge/license-MIT-a6e3a1?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](LICENSE)
 [![VS Code](https://img.shields.io/badge/VS%20Code-1.74.0+-89b4fa?style=for-the-badge&logo=visual-studio-code&logoColor=white)](https://code.visualstudio.com/)
 
@@ -247,7 +247,7 @@ code --install-extension catppuccin-dark-pro.catppuccin-dark-pro
 2. Navigate to the project directory: `cd vscode`
 3. Install VS Code Extension Manager: `npm install -g @vscode/vsce`
 4. Package the extension: `vsce package`
-5. Install the generated `.vsix` file: `code --install-extension catppuccin-dark-pro-1.0.1.vsix`
+5. Install the generated `.vsix` file: `code --install-extension catppuccin-dark-pro-1.0.2.vsix`
 6. Copy the project folder to your VS Code extensions directory:
 
 | Platform | Extensions Directory |
@@ -335,7 +335,7 @@ Catppuccin Dark Pro features **15+ semantic token definitions** that work with V
 
 ## ⚙️ Technical Implementation Details
 
-### 🎯 **Theme Architecture** (v1.0.1)
+### 🎯 **Theme Architecture** (v1.0.2)
 
 | Metric | Value | Details |
 |--------|-------|---------|
@@ -442,7 +442,7 @@ npm install -g @vscode/vsce
 vsce package
 
 # Install locally for testing
-code --install-extension catppuccin-dark-pro-1.0.1.vsix
+code --install-extension catppuccin-dark-pro-1.0.2.vsix
 ```
 
 ### **🔧 Theme File Structure**

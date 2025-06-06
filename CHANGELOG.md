@@ -5,6 +5,23 @@ All notable changes to the "Catppuccin Dark Pro" extension will be documented in
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.2] - 2025-06-06
+
+### Changed
+
+- 👤 Updated publisher from `catppuccin-dark-pro` to `SharifdotG` in package.json
+- 🔗 Updated repository URLs to point to `https://github.com/SharifdotG/Catppuccin-Dark-Pro`
+- 📝 Updated all GitHub references and links in README.md to reflect new repository location
+- 🎨 Updated version badges and marketplace links in README.md to show v1.0.2
+- 👨‍💻 Updated author information to "Sharif Md. Yousuf"
+- 📸 Updated SCREENSHOT.png with improved theme preview
+
+### Fixed
+
+- 🔗 Fixed all broken repository links and references
+- 📚 Ensured consistency between package.json and README.md metadata
+- 🏷️ Updated version references throughout documentation
+
 ## [1.0.1] - 2025-06-06
 
 ### Changed
