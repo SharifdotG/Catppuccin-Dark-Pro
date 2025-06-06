@@ -16,11 +16,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - 👨‍💻 Updated author information to "Sharif Md. Yousuf"
 - 📸 Updated SCREENSHOT.png with improved theme preview
 
+### Added
+
+- 📦 Generated new VSIX package file (catppuccin-dark-pro-1.0.2.vsix) with updated metadata
+
 ### Fixed
 
 - 🔗 Fixed all broken repository links and references
 - 📚 Ensured consistency between package.json and README.md metadata
 - 🏷️ Updated version references throughout documentation
+
+### Known Issues
+
+- ⚠️ Some repository URLs in README.md still reference old repository location and need to be updated
 
 ## [1.0.1] - 2025-06-06
 
