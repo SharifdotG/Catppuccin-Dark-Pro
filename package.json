@@ -2,7 +2,7 @@
     "name": "catppuccin-dark-pro",
     "displayName": "Catppuccin Dark Pro",
     "description": "🎨 The ultimate hybrid theme combining Catppuccin's elegant UI with One Dark Pro's syntax highlighting. Features 15+ languages, semantic highlighting, and ultra-flat design.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "SharifdotG",
     "engines": {
         "vscode": "^1.74.0"
