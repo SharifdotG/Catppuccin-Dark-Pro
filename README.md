@@ -241,11 +241,14 @@ code --install-extension catppuccin-dark-pro.catppuccin-dark-pro
 5. Open Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`)
 6. Type "Color Theme" and select **"Catppuccin Dark Pro"**
 
-### 🔧 **Manual Installation**
+### 🔧 **Manual Installation** (Advanced Users)
 
-1. Download the latest release from [GitHub Releases](https://github.com/catppuccin-dark-pro/vscode/releases/latest)
-2. Extract the downloaded ZIP file
-3. Copy the `catppuccin-dark-pro` folder to your VS Code extensions directory:
+1. Clone the repository: `git clone https://github.com/catppuccin-dark-pro/vscode.git`
+2. Navigate to the project directory: `cd vscode`
+3. Install VS Code Extension Manager: `npm install -g @vscode/vsce`
+4. Package the extension: `vsce package`
+5. Install the generated `.vsix` file: `code --install-extension catppuccin-dark-pro-1.0.0.vsix`
+6. Copy the project folder to your VS Code extensions directory:
 
 | Platform | Extensions Directory |
 |----------|---------------------|
@@ -253,7 +256,14 @@ code --install-extension catppuccin-dark-pro.catppuccin-dark-pro
 | **macOS** | `~/.vscode/extensions` |
 | **Linux** | `~/.vscode/extensions` |
 
-4. Restart VS Code and select the theme via Command Palette
+7. Restart VS Code and select the theme via Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P` → "Color Theme")
+
+### 🎨 **Activation**
+
+1. Open Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`)
+2. Type "Color Theme" and select **"Preferences: Color Theme"**
+3. Select **"Catppuccin Dark Pro"** from the list
+4. Enjoy your new theme!
 
 ### Syntax Colors (Harmonized Palette)
 
