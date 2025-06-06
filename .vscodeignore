@@ -1,0 +1,20 @@
+# Ignore test files and development assets
+test-files/
+*.vsix
+
+# Ignore common development files
+.vscode/
+.git/
+.gitignore
+*.log
+node_modules/
+
+# Keep only essential files for the extension
+!README.md
+!LICENSE
+!package.json
+!icon.png
+!LOGO.png
+!SCREENSHOT.png
+!code-samples/
+!themes/

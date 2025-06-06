@@ -1,0 +1,61 @@
+{
+    "name": "catppuccin-dark-pro",
+    "displayName": "Catppuccin Dark Pro",
+    "description": "🎨 The ultimate hybrid theme combining Catppuccin's elegant UI with One Dark Pro's syntax highlighting. Features 15+ languages, semantic highlighting, and ultra-flat design.",
+    "version": "1.0.0",
+    "publisher": "catppuccin-dark-pro",
+    "engines": {
+        "vscode": "^1.74.0"
+    },
+    "galleryBanner": {
+        "color": "#1e1e2e",
+        "theme": "dark"
+    },
+    "qna": "marketplace",
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "catppuccin",
+        "one dark pro",
+        "dark theme",
+        "hybrid theme",
+        "syntax highlighting",
+        "mocha",
+        "pastel",
+        "programming",
+        "semantic highlighting",
+        "typescript",
+        "javascript",
+        "python",
+        "rust",
+        "cpp",
+        "java"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Catppuccin Dark Pro",
+                "uiTheme": "vs-dark",
+                "path": "./themes/catppuccin-dark-pro-color-theme.json"
+            }
+        ]
+    },
+    "icon": "icon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/catppuccin-dark-pro/vscode"
+    },
+    "bugs": {
+        "url": "https://github.com/catppuccin-dark-pro/vscode/issues"
+    },
+    "homepage": "https://github.com/catppuccin-dark-pro/vscode#readme",
+    "author": {
+        "name": "Catppuccin Dark Pro Team"
+    },
+    "license": "MIT",
+    "preview": false,
+    "extensionKind": [
+        "ui"
+    ]
+}
