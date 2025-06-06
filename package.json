@@ -3,7 +3,7 @@
     "displayName": "Catppuccin Dark Pro",
     "description": "🎨 The ultimate hybrid theme combining Catppuccin's elegant UI with One Dark Pro's syntax highlighting. Features 15+ languages, semantic highlighting, and ultra-flat design.",
     "version": "1.0.0",
-    "publisher": "catppuccin-dark-pro",
+    "publisher": "SharifdotG",
     "engines": {
         "vscode": "^1.74.0"
     },
@@ -39,19 +39,18 @@
                 "uiTheme": "vs-dark",
                 "path": "./themes/catppuccin-dark-pro-color-theme.json"
             }
-        ]
-    },
-    "icon": "icon.png",
+        ]    },
+    "icon": "LOGO.png",
     "repository": {
         "type": "git",
-        "url": "https://github.com/catppuccin-dark-pro/vscode"
+        "url": "https://github.com/SharifdotG/Catppuccin-Dark-Pro"
     },
     "bugs": {
-        "url": "https://github.com/catppuccin-dark-pro/vscode/issues"
+        "url": "https://github.com/SharifdotG/Catppuccin-Dark-Pro/issues"
     },
-    "homepage": "https://github.com/catppuccin-dark-pro/vscode#readme",
+    "homepage": "https://github.com/SharifdotG/Catppuccin-Dark-Pro#readme",
     "author": {
-        "name": "Catppuccin Dark Pro Team"
+        "name": "Sharif Md. Yousuf"
     },
     "license": "MIT",
     "preview": false,

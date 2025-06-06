@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎨 Catppuccin Dark Pro
+# 🎨 **Catppuccin Dark Pro**
 
   <img src="LOGO.png" alt="Catppuccin Dark Pro Logo" width="200"/>
 
@@ -9,7 +9,6 @@
 [![Version](https://img.shields.io/badge/version-1.0.0-6c7086?style=for-the-badge&logo=visual-studio-code&logoColor=89b4fa)](https://marketplace.visualstudio.com/items?itemName=catppuccin-dark-pro.catppuccin-dark-pro)
 [![License](https://img.shields.io/badge/license-MIT-a6e3a1?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](LICENSE)
 [![VS Code](https://img.shields.io/badge/VS%20Code-1.74.0+-89b4fa?style=for-the-badge&logo=visual-studio-code&logoColor=white)](https://code.visualstudio.com/)
-[![Downloads](https://img.shields.io/badge/downloads-10k+-fab387?style=for-the-badge&logo=download&logoColor=white)](https://marketplace.visualstudio.com/items?itemName=catppuccin-dark-pro.catppuccin-dark-pro)
 
 </div>
 
