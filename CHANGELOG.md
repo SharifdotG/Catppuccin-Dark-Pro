@@ -5,6 +5,39 @@ All notable changes to the "Catppuccin Dark Pro" extension will be documented in
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.0] - 2025-06-20
+
+### Added
+
+- 🎯 **Enhanced C/C++ Syntax Highlighting**: Added comprehensive language-specific syntax highlighting for C and C++
+- 🔧 **Preprocessor Directives**: Specialized highlighting for `#include`, `#define`, `#pragma`, and other preprocessor directives with italic styling
+- 🏗️ **C++ Language Features**: Enhanced support for:
+  - Namespace keywords and names with distinct colors
+  - Scope resolution operators (`::`) in teal
+  - Template keywords and angle brackets
+  - Class/struct/union declarations with bold names
+  - Access specifiers (`public`, `private`, `protected`) in bold red
+  - Function modifiers (`virtual`, `override`, `final`) with italic styling
+  - Lambda expressions with pink capture brackets
+  - Operator overloading with italic blue styling
+  - Built-in primitive types in teal
+  - Exception handling keywords in bold red
+- 🎨 **Language-Specific Italics**: Added italic styling for appropriate C++ keywords and modifiers
+- 📋 **TextMate Grammar Integration**: Leveraged official C++ TextMate grammar scopes for precise highlighting
+- 🎯 **Enhanced Readability**: Improved visual distinction between different C++ language constructs
+
+### Changed
+
+- 📝 Updated package description to mention enhanced C/C++ highlighting
+- 🔄 Version bump from 1.0.2 to 1.1.0 for minor feature update
+
+### Technical Details
+
+- Added 20+ new syntax highlighting rules specifically for C/C++ language constructs
+- Integrated with VS Code's official C++ TextMate grammar scopes
+- Maintained Catppuccin color palette consistency while adding language-specific enhancements
+- Used semantic colors: Purple for keywords, Blue for functions, Yellow for types, Teal for operators, etc.
+
 ## [1.0.2] - 2025-06-06
 
 ### Changed

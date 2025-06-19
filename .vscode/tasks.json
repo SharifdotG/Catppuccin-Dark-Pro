@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Package VSCode Extension",
+			"type": "shell",
+			"command": "vsce",
+			"args": [
+				"package"
+			],
+			"group": "build",
+			"problemMatcher": [],
+			"isBackground": false
+		}
+	]
+}

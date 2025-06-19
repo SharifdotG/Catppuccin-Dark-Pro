@@ -6,7 +6,8 @@
 
 **The Ultimate Hybrid VS Code Theme**
 
-[![Version](https://img.shields.io/badge/version-1.0.2-6c7086?style=for-the-badge&logo=visual-studio-code&logoColor=89b4fa)](https://marketplace.visualstudio.com/items?itemName=catppuccin-dark-pro.catppuccin-dark-pro)
+[![Version](https://img.shields.io/badge/version-1.1.0-6c7086?style=for-the-badge&logo=visual-studio-code&logoColor=89b4fa)](https://marketplace.visualstudio.com/items?itemName=catppuccin-dark-pro.catppuccin-dark-pro)
+[![Downloads](https://img.shields.io/visual-studio-marketplace/d/SharifdotG.catppuccin-dark-pro?style=for-the-badge&logo=visual-studio-code&logoColor=white&color=94e2d5)](https://marketplace.visualstudio.com/items?itemName=SharifdotG.catppuccin-dark-pro)
 [![License](https://img.shields.io/badge/license-MIT-a6e3a1?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](LICENSE)
 [![VS Code](https://img.shields.io/badge/VS%20Code-1.74.0+-89b4fa?style=for-the-badge&logo=visual-studio-code&logoColor=white)](https://code.visualstudio.com/)
 
@@ -150,7 +151,7 @@
 | **TypeScript** | Type annotations, interfaces, generics | 🔷 Type safety visualization |
 | **Python** | F-strings, decorators, type hints | 🐍 Pythonic elegance |
 | **Rust** | Lifetime annotations, ownership, macros | 🦀 Memory safety focus |
-| **C++** | Templates, STL, modern features | 🔧 Systems programming |
+| **C++** | Templates, STL, enhanced syntax highlighting | 🔧 **NEW!** Advanced C++ features |
 | **Java** | Annotations, streams, lambda expressions | ☕ Enterprise patterns |
 | **C#** | LINQ, async/await, attributes | 💎 .NET ecosystem |
 | **Go** | Goroutines, interfaces, simplicity | 🏃 Concurrent programming |
@@ -176,6 +177,13 @@
 - **190+ Token Rules**: Comprehensive highlighting mapped to Catppuccin's elegant palette
 - **One Dark Pro Inspired**: Battle-tested readability patterns
 - **15+ Languages**: Specialized optimization for modern development
+- **🆕 Enhanced C/C++**: Advanced language-specific highlighting with 20+ new rules
+  - Preprocessor directives with italic styling
+  - Namespace and scope resolution operators
+  - Template syntax and angle brackets
+  - Lambda expressions and captures
+  - Access specifiers and function modifiers
+  - Operator overloading and built-in types
 - **Framework Awareness**: Smart token recognition for enhanced understanding
 
 ### 🧠 **Smart Features**

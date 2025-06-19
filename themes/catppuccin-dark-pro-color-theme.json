@@ -351,6 +351,402 @@
         "foreground": "#cba6f7"
       }
     },
+
+    // =============================================================================
+    // C/C++ Language Specific Syntax Highlighting
+    // =============================================================================
+
+    // C/C++ Preprocessor directives - bright orange for visibility
+    {
+      "name": "C/C++ Preprocessor Directives",
+      "scope": [
+        "keyword.control.directive.define.c",
+        "keyword.control.directive.define.cpp",
+        "keyword.control.directive.include.c",
+        "keyword.control.directive.include.cpp",
+        "keyword.control.directive.pragma.c",
+        "keyword.control.directive.pragma.cpp",
+        "keyword.control.directive.conditional.c",
+        "keyword.control.directive.conditional.cpp",
+        "keyword.control.directive.undef.c",
+        "keyword.control.directive.undef.cpp",
+        "keyword.control.directive.line.c",
+        "keyword.control.directive.line.cpp",
+        "keyword.control.directive.diagnostic.c",
+        "keyword.control.directive.diagnostic.cpp",
+        "meta.preprocessor.include.c",
+        "meta.preprocessor.include.cpp",
+        "meta.preprocessor.macro.c",
+        "meta.preprocessor.macro.cpp",
+        "meta.preprocessor.conditional.c",
+        "meta.preprocessor.conditional.cpp",
+        "meta.preprocessor.pragma.c",
+        "meta.preprocessor.pragma.cpp"
+      ],
+      "settings": {
+        "foreground": "#fab387",
+        "fontStyle": "italic"
+      }
+    },
+
+    // C/C++ Preprocessor macro names - yellow
+    {
+      "name": "C/C++ Preprocessor Macro Names",
+      "scope": [
+        "entity.name.function.preprocessor.c",
+        "entity.name.function.preprocessor.cpp",
+        "entity.name.other.preprocessor.macro.include.c",
+        "entity.name.other.preprocessor.macro.include.cpp"
+      ],
+      "settings": {
+        "foreground": "#f9e2af",
+        "fontStyle": "bold"
+      }
+    },
+
+    // C/C++ Include file names - green
+    {
+      "name": "C/C++ Include File Names",
+      "scope": [
+        "string.quoted.double.include.c",
+        "string.quoted.double.include.cpp",
+        "string.quoted.other.lt-gt.include.c",
+        "string.quoted.other.lt-gt.include.cpp"
+      ],
+      "settings": {
+        "foreground": "#a6e3a1"
+      }
+    },
+
+    // C++ Namespace keywords and names - purple for keywords, yellow for names
+    {
+      "name": "C++ Namespace Keywords",
+      "scope": [
+        "keyword.other.namespace.definition.cpp",
+        "keyword.other.namespace.directive.cpp",
+        "keyword.other.using.directive.cpp",
+        "storage.type.namespace.definition.cpp",
+        "storage.type.namespace.directive.cpp"
+      ],
+      "settings": {
+        "foreground": "#cba6f7",
+        "fontStyle": "italic"
+      }
+    },
+
+    {
+      "name": "C++ Namespace Names",
+      "scope": [
+        "entity.name.namespace.cpp",
+        "entity.name.scope-resolution.namespace.cpp",
+        "meta.using-namespace.cpp"
+      ],
+      "settings": {
+        "foreground": "#f9e2af"
+      }
+    },
+
+    // C++ Scope resolution operator - teal
+    {
+      "name": "C++ Scope Resolution Operator",
+      "scope": [
+        "punctuation.separator.scope-resolution.cpp",
+        "punctuation.separator.namespace.access.cpp",
+        "entity.name.scope-resolution.cpp"
+      ],
+      "settings": {
+        "foreground": "#94e2d5"
+      }
+    },
+
+    // C++ Template keywords and brackets - purple
+    {
+      "name": "C++ Template Keywords",
+      "scope": [
+        "storage.type.template.cpp",
+        "keyword.other.typename.cpp",
+        "storage.modifier.template.cpp"
+      ],
+      "settings": {
+        "foreground": "#cba6f7",
+        "fontStyle": "italic"
+      }
+    },
+
+    {
+      "name": "C++ Template Brackets",
+      "scope": [
+        "punctuation.section.angle-brackets.begin.template.call.cpp",
+        "punctuation.section.angle-brackets.end.template.call.cpp",
+        "punctuation.section.angle-brackets.start.template.definition.cpp",
+        "punctuation.section.angle-brackets.end.template.definition.cpp"
+      ],
+      "settings": {
+        "foreground": "#cba6f7"
+      }
+    },
+
+    // C++ Classes and structs - yellow for names, purple for keywords
+    {
+      "name": "C++ Class/Struct Keywords",
+      "scope": [
+        "storage.type.class.declare.cpp",
+        "storage.type.struct.declare.cpp",
+        "storage.type.union.declare.cpp",
+        "storage.type.enum.declare.cpp"
+      ],
+      "settings": {
+        "foreground": "#cba6f7",
+        "fontStyle": "italic"
+      }
+    },
+
+    {
+      "name": "C++ Class/Struct Names",
+      "scope": [
+        "entity.name.type.class.cpp",
+        "entity.name.type.struct.cpp",
+        "entity.name.type.union.cpp",
+        "entity.name.type.enum.cpp"
+      ],
+      "settings": {
+        "foreground": "#f9e2af",
+        "fontStyle": "bold"
+      }
+    },
+
+    // C++ Access specifiers - red
+    {
+      "name": "C++ Access Specifiers",
+      "scope": [
+        "storage.type.modifier.access.control.cpp",
+        "storage.type.modifier.access.cpp",
+        "punctuation.separator.colon.access.control.cpp"
+      ],
+      "settings": {
+        "foreground": "#f38ba8",
+        "fontStyle": "bold"
+      }
+    },
+
+    // C++ Function modifiers and specifiers - purple italic
+    {
+      "name": "C++ Function Modifiers",
+      "scope": [
+        "storage.modifier.specifier.functional.cpp",
+        "storage.modifier.specifier.functional.pre-parameters.cpp",
+        "storage.modifier.specifier.functional.post-parameters.cpp",
+        "storage.type.modifier.virtual.cpp",
+        "storage.type.modifier.final.cpp",
+        "keyword.other.default.constructor.cpp",
+        "keyword.other.delete.constructor.cpp"
+      ],
+      "settings": {
+        "foreground": "#cba6f7",
+        "fontStyle": "italic"
+      }
+    },
+
+    // C++ Member functions - blue
+    {
+      "name": "C++ Member Functions",
+      "scope": [
+        "entity.name.function.member.cpp",
+        "entity.name.function.definition.cpp",
+        "entity.name.function.constructor.cpp",
+        "entity.name.function.destructor.cpp"
+      ],
+      "settings": {
+        "foreground": "#89b4fa"
+      }
+    },
+
+    // C++ Operators - teal
+    {
+      "name": "C++ Operators",
+      "scope": [
+        "keyword.operator.new.cpp",
+        "keyword.operator.delete.cpp",
+        "keyword.operator.delete.array.cpp",
+        "keyword.operator.sizeof.cpp",
+        "keyword.operator.alignof.cpp",
+        "keyword.operator.alignas.cpp",
+        "keyword.operator.typeid.cpp",
+        "keyword.operator.noexcept.cpp",
+        "keyword.operator.cast.cpp"
+      ],
+      "settings": {
+        "foreground": "#94e2d5",
+        "fontStyle": "bold"
+      }
+    },
+
+    // C++ Operator overloading - blue italic
+    {
+      "name": "C++ Operator Overloading",
+      "scope": [
+        "keyword.other.operator.overload.cpp",
+        "entity.name.operator.cpp",
+        "entity.name.operator.custom-literal.cpp"
+      ],
+      "settings": {
+        "foreground": "#89b4fa",
+        "fontStyle": "italic"
+      }
+    },
+
+    // C++ Lambda expressions - pink
+    {
+      "name": "C++ Lambda Keywords",
+      "scope": [
+        "storage.modifier.lambda.cpp",
+        "punctuation.definition.capture.begin.lambda.cpp",
+        "punctuation.definition.capture.end.lambda.cpp",
+        "punctuation.definition.parameters.begin.lambda.cpp",
+        "punctuation.definition.parameters.end.lambda.cpp",
+        "meta.lambda.capture.cpp"
+      ],
+      "settings": {
+        "foreground": "#f38ba8"
+      }
+    },
+
+    // C++ Lambda return type arrow - teal
+    {
+      "name": "C++ Lambda Return Type",
+      "scope": [
+        "punctuation.definition.lambda.return-type.cpp",
+        "storage.type.return-type.lambda.cpp"
+      ],
+      "settings": {
+        "foreground": "#94e2d5"
+      }
+    },
+
+    // C++ This keyword - red italic
+    {
+      "name": "C++ This Keyword",
+      "scope": [
+        "variable.language.this.cpp"
+      ],
+      "settings": {
+        "foreground": "#f38ba8",
+        "fontStyle": "italic"
+      }
+    },
+
+    // C++ Primitive built-in types - teal
+    {
+      "name": "C/C++ Built-in Types",
+      "scope": [
+        "storage.type.built-in.cpp",
+        "storage.type.built-in.primitive.cpp",
+        "storage.type.built-in.c",
+        "storage.type.built-in.primitive.c",
+        "storage.type.integral.cpp"
+      ],
+      "settings": {
+        "foreground": "#94e2d5"
+      }
+    },
+
+    // C++ Storage modifiers - purple italic
+    {
+      "name": "C++ Storage Modifiers",
+      "scope": [
+        "storage.modifier.inline.cpp",
+        "storage.modifier.pointer.cpp",
+        "storage.modifier.reference.cpp",
+        "storage.modifier.array.bracket.square.cpp"
+      ],
+      "settings": {
+        "foreground": "#cba6f7",
+        "fontStyle": "italic"
+      }
+    },
+
+    // C++ Exception handling - red
+    {
+      "name": "C++ Exception Keywords",
+      "scope": [
+        "keyword.control.exception.cpp",
+        "keyword.control.exception.c"
+      ],
+      "settings": {
+        "foreground": "#f38ba8",
+        "fontStyle": "bold"
+      }
+    },
+
+    // C++ Control flow - purple bold
+    {
+      "name": "C++ Control Flow",
+      "scope": [
+        "keyword.control.switch.cpp",
+        "keyword.control.case.cpp",
+        "keyword.control.default.cpp",
+        "keyword.control.goto.cpp",
+        "keyword.control.c",
+        "keyword.control.cpp"
+      ],
+      "settings": {
+        "foreground": "#cba6f7",
+        "fontStyle": "bold"
+      }
+    },
+
+    // C/C++ Punctuation and brackets - overlay colors
+    {
+      "name": "C/C++ Function Call Brackets",
+      "scope": [
+        "punctuation.section.arguments.begin.bracket.round.function.call.cpp",
+        "punctuation.section.arguments.end.bracket.round.function.call.cpp",
+        "punctuation.section.parameters.begin.bracket.round.cpp",
+        "punctuation.section.parameters.end.bracket.round.cpp"
+      ],
+      "settings": {
+        "foreground": "#9399b2"
+      }
+    },
+
+    // C++ Enum members - teal
+    {
+      "name": "C++ Enum Members",
+      "scope": [
+        "variable.other.enummember.cpp"
+      ],
+      "settings": {
+        "foreground": "#94e2d5"
+      }
+    },
+
+    // C++ Static assert - yellow
+    {
+      "name": "C++ Static Assert",
+      "scope": [
+        "keyword.other.static_assert.cpp",
+        "keyword.other.static_assert.c"
+      ],
+      "settings": {
+        "foreground": "#f9e2af",
+        "fontStyle": "bold"
+      }
+    },
+
+    // C++ ASM blocks - overlay
+    {
+      "name": "C++ Inline Assembly",
+      "scope": [
+        "storage.type.asm.cpp",
+        "meta.asm.cpp",
+        "punctuation.section.parens.begin.bracket.round.assembly.cpp",
+        "punctuation.section.parens.end.bracket.round.assembly.cpp"
+      ],
+      "settings": {
+        "foreground": "#9399b2",
+        "fontStyle": "italic"
+      }
+    },
     {
       "scope": "meta.embedded",
       "settings": {
